@@ -168,3 +168,28 @@ main section {
     font-size: 16px;
     color: #757575;
 }
+
+/* Resume Section Style */
+
+.resume-container {
+    display: flex;
+    gap: 24px;
+}
+
+.resume hr {
+    margin: 30px 5px;
+}
+
+.experience-subtitle {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.experience-description, .experience-subtitle {
+    color: #757575;
+}
+
+.resume-cv-btn {
+    margin-top: 50px;
+}
