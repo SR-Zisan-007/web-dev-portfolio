@@ -217,3 +217,23 @@ footer input[type="text"], footer input[type="email"], footer textarea {
     font-size: 16px;
     margin-bottom: 24px;
 }
+
+/* Responsive */
+.hide {
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+    .skill-container, .resume-container, footer, .about-items {
+        flex-direction: column;
+    }
+    footer, .about {
+        padding: 20px;
+    }
+    .footer-column, main {
+        width: 100%;
+    }
+    footer input[type="text"], footer input[type="email"], footer textarea {
+        width: calc(100% - 40px);
+    }
+}
